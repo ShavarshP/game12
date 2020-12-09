@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+}
+#tab{
+  width: 100%;
+  height: 100%;
+  background-color: #348629;
+  z-index: 1;
+}
+#gamePagefather{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 50px;
+
+}
+#net{
+  z-index: 2;
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  transition: all 0.2s ease
+}
+#wolves1{
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  transition: all 0.2s ease
+}
+#wolves2{
+  z-index: 2;
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  transition: all 0.2s ease
+}
+#home{
+
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+}
+#winn{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100
+}
+#gameover{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100
+}
+.nett{
+  width: 60px;
+  height: 60px;
+}
